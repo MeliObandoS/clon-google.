@@ -1,11 +1,16 @@
 .gugol {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 150px;
-    font-family:'Courier New', Courier, monospace;
+    font-style:oblique;
+    min-width: 550px;
+    margin-bottom: 1%;
 }
 
 .ojos {
-    width: 160px;
+    width: 150px;
+    height: 150px;
     border-radius: 10%;
 }
 h1 span:nth-child(3){
@@ -20,6 +25,35 @@ h1 span:nth-child(4){
 h1 span:nth-child(5){
     color:red;
 }
-body{
-    
+.boton{
+    width: 20px;
+    height: 20px;
+}
+.lupa{
+    width: 30px;
+    opacity: 60%;
+}
+.barra{
+
+    height: 25px ;
+    width: 50%;
+    max-width: 500px;
+}
+.searchcontainer{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+.lupa:hover{
+    opacity: 100%;
+}
+.botonesBajos{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    margin-top: 1%;
+}
+.bcg{
+    margin-right: 1%;
 }
