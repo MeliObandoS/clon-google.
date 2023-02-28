@@ -77,4 +77,5 @@ margin-top: 26%;
 .header{
     display: grid;
     justify-content: center;
+    margin-right: 5%;
 }
