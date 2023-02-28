@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     font-size: 150px;
-    font-style:oblique;
+    font-style: oblique;
     min-width: 550px;
     margin-bottom: 1%;
 }
@@ -13,69 +13,111 @@
     height: 150px;
     border-radius: 10%;
 }
-h1 span:nth-child(3){
-    color:rgb(0, 102, 255);
+
+.gugol span:nth-child(3) {
+    color: rgb(0, 102, 255);
 }
-h1 span:nth-child(1){
-    color:rgb(0, 102, 255);
+
+.gugol span:nth-child(1) {
+    color: rgb(0, 102, 255);
 }
-h1 span:nth-child(4){
-    color:green;
+
+.gugol span:nth-child(4) {
+    color: green;
 }
-h1 span:nth-child(5){
-    color:red;
+
+.gugol span:nth-child(5) {
+    color: red;
 }
-.boton{
+
+.boton {
     width: 20px;
     height: 20px;
 }
-.lupa{
+
+.lupa {
     width: 30px;
     opacity: 60%;
 }
-.barra{
 
-    height: 25px ;
+.barra {
+
+    height: 25px;
     width: 50%;
     max-width: 500px;
 }
-.searchcontainer{
+
+.searchcontainer {
     margin-top: 1%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    }
-.lupa:hover{
+}
+
+.lupa:hover {
     opacity: 100%;
 }
-.botonesBajos{
+
+.botonesBajos {
     display: flex;
     flex-direction: row;
-    justify-content:center ;
+    justify-content: center;
     margin-top: 1%;
 }
-.bcg{
+
+.bcg {
     margin-right: 1px;
 }
-.pais span:nth-child(2){
+
+.pais span:nth-child(2) {
     color: white;
-    text-shadow: 1px 1px 1px  #000 ;
+    text-shadow: 1px 1px 1px #000;
 }
-.pais span:nth-child(1){
-    color:rgb(0, 83, 0)
+
+.pais span:nth-child(1) {
+    color: rgb(0, 83, 0)
 }
-.pais span:nth-child(3){
-    color:rgb(212, 0, 0)
+
+.pais span:nth-child(3) {
+    color: rgb(212, 0, 0)
 }
-.pais{
-display: flex;
-flex-wrap: nowrap;
-font-size: 21px;
-margin-left: -100px;
-margin-top: 26%;
+
+.pais {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 21px;
+    margin-left: -100px;
+    margin-top: 26%;
 }
-.header{
+
+.header {
     display: grid;
     justify-content: center;
     margin-right: 5%;
+}
+
+.barraDeTareas {
+    display: grid;
+    grid-template-columns: 50px 50px 130px;
+    justify-content: flex-end;
+
+    margin-top: 15px;
+    margin-bottom: 5%;
+}
+
+.cuenta {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+        background-color: rgba(43, 125, 248, 0.788);
+    color: white;
+    border-radius: 5%;
+    height: 20px;
+}
+
+.perfil {
+    height: 20px;
+    border-radius: 50%;
+    opacity: 60%;
+    margin-left: 2px;
 }
