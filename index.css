@@ -187,9 +187,17 @@
 .blogger,
 .hang,
 .kip,
-.jam, .earth, .coleccion, .arts, .ads, .podcasts, .viajes, .forms, .store {
-    height: 40px;
-    width: 40px;
+.jam,
+.earth,
+.coleccion,
+.arts,
+.ads,
+.podcasts,
+.viajes,
+.forms,
+.store {
+    height: 25px;
+    width: 25px;
     margin-left: 12px;
     margin-right: 12px;
     margin-top: 5px;
@@ -216,27 +224,44 @@
     display: flex;
     text-align: center;
     margin-left: -100px;
+    ;
 }
-.mas-apps{
-    width: 85px;
-    background-color:  rgba(43, 125, 248, 0.788) ;
+
+.mas-apps {
+    width: 70px;
+    height: 15px;
+    background-color: rgba(43, 125, 248, 0.788);
     border-radius: 5%;
     text-align: center;
-    }
-    .mas-apps-link{
-        color: white;
-    }
-a {
-    font-size: 12px;
+    margin-bottom: 10px;
+margin-left: 45%;
+margin-right: 45%;
+}
+
+.carpeta a {
+    font-size: 9px;
     text-decoration: none;
     font-weight: bold;
     color: rgba(65, 64, 64, 0.877);
 }
+
+.carpeta .mas-apps-link {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+}
+
 .carpeta {
     display: none;
-  }
-  
-  .googleApps:hover .carpeta {
+    position: fixed;
+    left: 80%;
+    transform: translate(-40%, 0%);
+    background-color: white;
+    overflow: auto;
+    height: 210px;
+}
+
+.googleApps:hover .carpeta {
     display: block;
-  }
-  
+}
