@@ -99,7 +99,7 @@
 
 .barraDeTareas {
     display: grid;
-    grid-template-columns: 50px 50px 130px;
+    grid-template-columns: 50px 65px 30px 111px;
     justify-content: flex-end;
 
     margin-top: 15px;
@@ -109,8 +109,7 @@
 .cuenta {
     display: flex;
     justify-content: center;
-    margin-left: 20px;
-        background-color: rgba(43, 125, 248, 0.788);
+    background-color: rgba(43, 125, 248, 0.788);
     color: white;
     border-radius: 5%;
     height: 20px;
@@ -123,3 +122,121 @@
     opacity: 60%;
     margin-left: 2px;
 }
+
+@keyframes moverIzquierda {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateX(-5px);
+    }
+}
+
+.gugol {
+    animation-name: moverIzquierda;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+
+.puntos {
+    height: 30px;
+    width: 30px;
+    margin-top: -5px;
+}
+
+.sin-viñetas {
+    list-style: none;
+}
+
+.logo-busqueda-google,
+.img-cta,
+.google-maps,
+.youtube,
+.play,
+.news,
+.gmail,
+.meet,
+.Chat,
+.contactos,
+.drive,
+.calendario,
+.traductor,
+.fotos,
+.chrome,
+.choping,
+.finance,
+.docs,
+.sheets,
+.presentaciones,
+.libros,
+.blogger,
+.hang,
+.kip,
+.jam, .earth, .coleccion, .arts, .ads, .podcasts, .viajes, .forms, .store {
+    height: 40px;
+    width: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 5px;
+
+}
+
+.sin-viñetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.sin-viñetass {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-left: -115px;
+}
+
+.sin-viñetasss {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-left: -100px;
+}
+.mas-apps{
+    width: 85px;
+    background-color:  rgba(43, 125, 248, 0.788) ;
+    border-radius: 5%;
+    text-align: center;
+    }
+    .mas-apps-link{
+        color: white;
+    }
+a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(65, 64, 64, 0.877);
+}
+.carpeta {
+    display: none;
+  }
+  
+  .googleApps:hover .carpeta {
+    display: block;
+  }
+  
